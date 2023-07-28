@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "2FA Enrollment Enforcer",
+  "version": "1.0",
+  "permissions": [
+    "https://myaccount.google.com/interstitials/twosvrequired*",
+    "scripting",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
