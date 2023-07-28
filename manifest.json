@@ -7,9 +7,6 @@
     "scripting",
     "activeTab"
   ],
-  "action": {
-    "default_popup": "popup.html"
-  },
   "background": {
     "service_worker": "service_worker.js"
   }
