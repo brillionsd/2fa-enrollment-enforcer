@@ -2,8 +2,10 @@
   "manifest_version": 3,
   "name": "2FA Enrollment Enforcer",
   "version": "1.0",
+  "host_permissions": [
+    "https://myaccount.google.com/"
+  ],
   "permissions": [
-    "https://myaccount.google.com/interstitials/twosvrequired*",
     "scripting",
     "activeTab"
   ],
